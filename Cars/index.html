@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Cars Data</title>
+  </head>
+  <body>
+    <header>
+      <h1>🏁 The Dream Car Filter 🚗</h1>
+    </header>
+
+    <div id="filter-container">
+      <label for="type-filter">1. Filter by Type:</label>
+      <select id="type-filter">
+        <option value="">All</option>
+        <option value="SUV">SUV</option>
+        <option value="Sedan">Sedan</option>
+        <option value="Hatchback">Hatchback</option>
+        <option value="Convertible">Convertible</option>
+        <option value="Truck">Truck</option>
+        <option value="Coupe">Coupe</option>
+      </select>
+      <br />
+      <br />
+      <label for="brand-filter">2. Filter by Brand:</label>
+      <select id="brand-filter">
+        <option value="">All</option>
+        <option value="Volkswagen">Volkswagen</option>
+        <option value="Toyota">Toyota</option>
+        <option value="Ford">Ford</option>
+        <option value="BMW">BMW</option>
+        <option value="Chevrolet">Chevrolet</option>
+        <option value="Mercedes-Benz">Mercedes-Benz</option>
+        <option value="Honda">Honda</option>
+        <option value="Nissan">Nissan</option>
+        <option value="Hyundai">Hyundai</option>
+        <option value="Mazda">Mazda</option>
+        <option value="Ram">Ram</option>
+        <option value="Audi">Audi</option>
+        <option value="Kia">Kia</option>
+        <option value="Subaru">Subaru</option>
+        <option value="Fiat">Fiat</option>
+      </select>
+      <br />
+      <br />
+      <label for="model-filter">3. Filter by Model:</label>
+      <input type="text" id="model-filter" />
+      <br /><br />
+      <label for="doors-filter">4. Filter by Doors:</label>
+      <input type="number" id="doors-filter" min="1" max="5" />
+      <br /><br />
+      <label for="gas-type-filter">5. Filter by Gas Type:</label>
+      <select id="gas-type-filter">
+        <option value="">All</option>
+        <option value="Diesel">Diesel</option>
+        <option value="Petrol">Petrol</option>
+        <option value="Gasoline">Gasoline</option>
+        <option value="Hybrid">Hybrid</option>
+        <option value="Electric">Electric</option>
+      </select>
+      <br /><br />
+      <label for="color-filter">6. Filter by Color:</label>
+      <input type="text" id="color-filter" />
+      <br /><br />
+      <label for="new-old-filter">7. Filter by New/Old:</label><br />
+      <input type="checkbox" id="new-filter" />
+      <label for="new-filter">New</label>
+      <input type="checkbox" id="old-filter" />
+      <label for="old-filter">Old</label>
+      <br /><br />
+      <label for="horsepower-filter">8. Filter by Horsepower:</label>
+      <input type="range" id="horsepower-filter" min="0" max="300" value="0" />
+      <span id="horsepower-value">0</span>
+      <br /><br />
+      <button id="filter-button">Filter Cars</button>
+      <button id="reset-button">Reset Filters</button>
+    </div>
+
+    <div id="table-container">
+      <table id="cars-table">
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th>Brand</th>
+            <th>Model</th>
+            <th>Doors</th>
+            <th>Gas Type</th>
+            <th>Color</th>
+            <th>Is New</th>
+            <th>Horsepower</th>
+          </tr>
+        </thead>
+        <tbody id="cars-body"></tbody>
+      </table>
+      <p id="no-data-found" style="display: none">No data found!</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+header {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(134, 134, 230);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  text-align: center;
+  padding: 6px;
+}
+
+#table-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; /* Allows content inside to stack vertically */
+  align-items: center;
+}
+
+#filter-container {
+  padding-top: 65px;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
+
+#filter-button,
+#reset-button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#filter-button:hover,
+#reset-button:hover {
+  background-color: darkblue;
+}
+
+#no-data-found {
+  margin-top: 20px; /* Space between the table and the error message */
+  font-size: 40px;
+  color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(to left, rgb(199, 241, 255), rgb(164, 164, 250));
+}
