@@ -30,3 +30,26 @@ Features:
 - Pagination: Navigate through pages of data using 'Previous' and 'Next' buttons.
 - Loading Indicator: Displays a loading animation while fetching data.
 - Responsive Design: The app adjusts well across different screen sizes, offering an engaging experience.
+
+# 💻 Qintronics - Electronics Store
+Qintronics is an e-commerce web application for buying and selling electronics. The app allows users to browse a wide variety of products, manage a shopping cart, view featured discounts, and easily navigate between product listings. It’s designed with modern features, including cart management, product filtering, pagination, and more.
+
+Features:
+- Product Listings: Display products with names, descriptions, images, prices, and discount information.
+- Cart Management: Users can add, remove, and adjust quantities of items in the cart. The total price is automatically updated, and data is stored in local storage for persistence.
+- Featured Products: Highlight products with special discounts. Users can explore randomly featured items from the electronics collection.
+- Favorites: Users can manage a favorites list, storing and viewing products they are interested in for future purchases.
+- Dynamic Pagination: Paginated navigation for browsing large sets of products, with the ability to view multiple items on a single page.
+- Discounted Items: Automatically apply discounts to products and display the updated prices.
+- Responsive Design: Works seamlessly across various screen sizes, providing an intuitive user experience on desktop and mobile devices.
+- Category Navigation: Users can click on various categories like Laptops, Graphics Cards, Processors, etc., to explore products. The app stores category and subcategory selections in local storage and redirects users to relevant pages.
+- Product Search: Search results are dynamically filtered and displayed using a search input. The app stores and displays the last searched keyword for easy reference.
+- Login & Registration Forms: Users can easily switch between login and registration forms. User credentials and form states are stored in local storage.
+- Dynamic Badges: Badges dynamically update to reflect the number of items in the cart or favorites list.
+- Order Form: Users can submit their order details, which are saved in local storage before being redirected to an order summary page.
+
+Technologies Used:
+- HTML, CSS, JavaScript: The foundational languages for building the structure, style, and interactive functionality of the app.
+- LocalStorage: Used for persisting cart and favorites data, ensuring users can continue their shopping experience even after closing the browser.
+- Fetch API: To load products dynamically from JSON files and APIs.
+- Event Listeners: For managing user interactions like button clicks, product selection, and pagination navigation.
