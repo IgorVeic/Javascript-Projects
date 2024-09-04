@@ -1,0 +1,172 @@
+.slide-top {
+  display: grid;
+  grid-template-columns: repeat(1, 40em);
+  gap: 4em;
+  justify-content: center;
+  justify-items: stretch;
+  align-items: center;
+}
+
+.sliderdiv {
+  margin-top: 5em;
+  left: 2%;
+  position: relative;
+  width: 650px;
+  height: 550px; /* Increase height to accommodate product info */
+  overflow: hidden;
+  border: 1px solid #f0f0f0;
+  background-color: #fff;
+  grid-column: 1 / span 1; /* Span the first column */
+}
+
+.slider-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.slide {
+  min-width: 100%;
+  margin-top: 5em;
+  height: 400px; /* Adjust height to leave space for product info */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Align product info at the bottom */
+}
+
+.product-info {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 10px;
+  /* text-align: center; */
+  width: 100%;
+}
+
+.product-name {
+  font-weight: bold;
+  /* padding-bottom: 10px; */
+}
+
+.product-price {
+  color: #1a3f6b; /* Highlight the price */
+}
+
+.product-discount {
+  color: #1bd8c4; /* Dim the original price */
+  font-weight: 600;
+  line-height: 2em;
+  position: relative;
+  /* bottom: 10em; */
+  text-align: center;
+  /* transform: rotate(-50deg);
+  right: 80px; */
+}
+
+.dots-container {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+}
+
+.dots-container .dot {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dots-container .dot.active {
+  background-color: #1a3f6b;
+}
+/* .ads-banner {
+  display: grid;
+  grid-template-columns: 100% 100%;
+  gap: 1em;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+} */
+.small-ads {
+  position: relative;
+  /* left: 10%; */
+  grid-column: 2 / span 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.small-ads img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+}
+
+.ads-banner {
+  display: grid;
+  grid-template-columns: 30% 30%;
+  gap: 0.5em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.small-ads {
+  grid-column: 2 / span 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.small-ads img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.small-ads:hover img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .ads-banner {
+    grid-template-columns: 1fr;
+  }
+
+  .small-ads {
+    grid-column: 1 / span 1;
+    margin-top: 1em;
+  }
+
+  .small-ads img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .ads-banner {
+    grid-template-columns: 1fr;
+  }
+
+  .small-ads {
+    grid-column: 1 / span 1;
+    margin-top: 1em;
+  }
+
+  .small-ads img {
+    width: 100%;
+  }
+
+  .sliderdiv {
+    grid-column: 1 / span 1;
+  }
+}

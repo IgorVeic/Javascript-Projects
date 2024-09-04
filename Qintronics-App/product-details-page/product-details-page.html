@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title id="document-title"></title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="product-details-page-style.css" type="text/css" />
+		<link rel="stylesheet" href="/navbar/navbar.css" type="text/css" />
+		<link rel="stylesheet" href="/footer/footer.css" type="text/css" />
+		<link rel="icon" type="image/x-icon" href="/navbar/hfassets/logo/qin-favicon.png">
+
+	</head>
+	<body>
+		<header class="nav-header">
+			<nav class="nav-sidebar">
+			  <ul>
+				<li class="mobile-v sale">
+				  <a href="/sales-page/sales-page.html">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/sale.svg" alt="On sale icon"
+					/></span>
+					<span class="nav-item">On sale</span>
+				  </a>
+				</li>
+				<li class="mobile-v gift">
+				  <a href="/gift-card-page/gift-card.html">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/gift.svg" alt="Gift Card icon"
+					/></span>
+					<span class="nav-item">Gift Card</span>
+				  </a>
+				</li>
+				<li>
+				  <a href="/home-page/home.html">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/home.svg" alt="Home icon"
+					/></span>
+					<span class="nav-item">Home</span>
+				  </a>
+				</li>
+				<li>
+				  <a href="#">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/info.svg" alt="About us icon"
+					/></span>
+					<span class="nav-item">About us</span>
+				  </a>
+				</li>
+				<li>
+				  <a href="/contact-page/contact.html">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/contact.svg" alt="Contact icon"
+					/></span>
+					<span class="nav-item">Contact</span>
+				  </a>
+				</li>
+				<li class="nav-sb-drdown language">
+				  <div class="select">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/language.svg" alt="Language icon"
+					/></span>
+					<span class="selected">EN</span>
+					<div class="arrow"></div>
+				  </div>
+				  <ul class="menu">
+					<li class="active">EN</li>
+					<li>MK</li>
+				  </ul>
+				</li>
+				<li class="nav-sb-drdown currency">
+				  <div class="select">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/cash.svg" alt="Currency"
+					/></span>
+					<span class="selected">USD</span>
+					<div class="arrow"></div>
+				  </div>
+				  <ul class="menu">
+					<li class="active">USD</li>
+					<li>MKD</li>
+				  </ul>
+				</li>
+			  </ul>
+			  <div class="sb-socials">
+				<a href="#">
+				  <span class="icon nav-icon">
+					<img src="./hfassets/icons/instagram-svg.svg" alt="Instagram" />
+				  </span>
+				</a>
+				<a href="#">
+				  <span class="icon nav-icon">
+					<img src="./hfassets/icons/gh.svg" alt="GitHub" />
+				  </span>
+				</a>
+				<a href="#">
+				  <span class="icon nav-icon">
+					<img src="./hfassets/icons/fb.svg" alt="Facebook" />
+				  </span>
+				</a>
+			  </div>
+			</nav>
+			<nav class="nav-main">
+			  <div class="nav-logo">
+				<div class="logo">
+				  <a href="/home-page/home.html">
+					<img
+					  src="./hfassets/logo/qintronics-logo.png"
+					  width="180px"
+					  height="auto"
+					  alt="Qintronics Logo"
+					/>
+				  </a>
+				</div>
+			  </div>
+			  <div class="nav-content">
+				<div class="searchbar">
+				  <input
+					class="search-input"
+					type="search"
+					placeholder="Search"
+					aria-label="Search"
+				  />
+				  <div class="search-button">
+					<img
+					  class="closed"
+					  src="./hfassets/icons/searchw.svg"
+					  alt="Search"
+					/>
+					<img
+					  class="open"
+					  src="./hfassets/icons/search.svg"
+					  alt="Search"
+					/>
+				  </div>
+				</div>
+				<div class="nav-btns">
+				  <a href="/sales-page/sales-page.html" class="nav-btn sale">On Sale</a>
+				  <a href="/gift-card-page/gift-card.html" class="nav-btn gift">Gift Card</a>
+				</div>
+				<div class="nav-link-icons">
+				  <div class="favourite">
+					<a
+					  href="/favourites-page/favourites-page.html"
+					  class="favourites-link"
+					>
+					  <span class="nav-icon"
+						><img src="./hfassets/icons/favorite.svg" alt="Favourites"
+					  /></span>
+					  <span class="badges fav" style="top: -10px">0</span>
+					</a>
+				  </div>
+				  <div class="cart">
+					<a href="/cart-page/index.html" class="cart-link">
+					  <span class="nav-icon"
+						><img src="./hfassets/icons/cart.svg" alt="Cart"
+					  /></span>
+					  <span class="badges cart" style="top: -10px">0</span>
+					</a>
+				  </div>
+				  <div class="login">
+					<a href="#" class="login-link">
+					  <span class="nav-icon"
+						><img src="./hfassets/icons/avatar2.svg" alt="Login"
+					  /></span>
+					</a>
+				  </div>
+				  <div class="mobile-v-sb">
+					<a href="#" class="sidebar-link">
+					  <span id="hbtn" class="nav-icon"
+						><img src="./hfassets/icons/hamburger-menu.svg" alt="Menu"
+					  /></span>
+					</a>
+				  </div>
+				</div>
+			  </div>
+			</nav>
+		  </header>
+		  <div id="authModal" class="nav-login">
+			<div class="login-content">
+			  <div class="login-header">
+				<img src="./hfassets/logo/logo-color.png" width="60px" alt="Logo" />
+				<h2 class="login-header-text">Have an account?</h2>
+			  </div>
+			  <form id="login-form" class="auth-form">
+				<label for="username">Username:</label>
+				<input
+				  type="text"
+				  id="username"
+				  name="username"
+				  placeholder="john.doe@mail.com"
+				  required
+				/>
+				<label for="password">Password:</label>
+				<input
+				  type="password"
+				  id="password"
+				  name="password"
+				  placeholder="Password"
+				  required
+				/>
+				<div class="form-options">
+				  <div class="remember">
+					<input type="checkbox" name="remember" id="remember" />
+					<label for="remember">Remember me</label>
+				  </div>
+				  <a href="#">Forgot password?</a>
+				</div>
+				<button type="submit">Login</button>
+			  </form>
+			  <div class="register">
+				<h5>Or create one:</h5>
+				<button class="toggle-button">Sign Up</button>
+			  </div>
+			  <form id="signup-form" class="auth-form">
+				<label for="new-username">Username:</label>
+				<input
+				  type="text"
+				  id="new-username"
+				  name="username"
+				  placeholder="john.doe@mail.com"
+				  required
+				/>
+				<label for="new-password">Password:</label>
+				<input
+				  type="password"
+				  id="new-password"
+				  name="password"
+				  placeholder="Password"
+				  required
+				/>
+				<label for="confirm-password">Confirm Password:</label>
+				<input
+				  type="password"
+				  id="confirm-password"
+				  name="confirm-password"
+				  placeholder="Confirm Password"
+				  required
+				/>
+				<button type="submit">Sign Up</button>
+			  </form>
+			</div>
+		  </div>
+
+		<div id="empty-container" class="container"></div>
+
+		<nav id="details-bar" class="container d-flex justify-content-between align-items-center">
+			<div id="breadcrumb-container">
+				<a href="../home-page/home.html" id="home-page">Home / </a>
+				<a href="/category-page/category-page.html" id="chosen-category"></a>
+				<a href="/category-page/category-page.html" id="chosen-subcategory"></a>
+				<a id="chosen-product"></a>
+			</div>
+		</nav>
+
+		<div id="details-page-container">
+			<div id="detail-card-container" class="card mb-3 mx-auto mt-4 border border-0">
+				<div class="row g-0 d-flex flex-wrap">
+					<div class="col-md-6 d-flex justify-content-md-end pe-md-5 justify-content-center">
+						<div id="img-container" class="d-flex overflow-hidden position-relative flex-shrink-1">
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="card-body d-flex flex-column align-items-md-start justify-content-center align-items-center
+						">
+							<div id="title-bar" class="d-flex justify-content-between g-2">
+								<div id="title-container" class="d-flex flex-wrap justify-content-start">
+									<h2 id="product-title" class="card-title"></h2>
+								</div>
+
+								<svg
+									id="fav-icon"
+									viewBox="0 0 24 24"
+									xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+									xmlns="http://www.w3.org/2000/svg"
+									version="1.1"
+									xmlns:cc="http://creativecommons.org/ns#"
+									xmlns:dc="http://purl.org/dc/elements/1.1/"
+									fill="currentColor"
+									stroke="currentColor"
+								>
+									<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+									<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+									<g id="SVGRepo_iconCarrier">
+										<g transform="translate(0 -1028.4)">
+											<path
+												id="fav-icon-path"
+												d="m7 1031.4c-1.5355 0-3.0784 0.5-4.25 1.7-2.3431 2.4-2.2788 6.1 0 8.5l9.25 9.8 9.25-9.8c2.279-2.4 2.343-6.1 0-8.5-2.343-2.3-6.157-2.3-8.5 0l-0.75 0.8-0.75-0.8c-1.172-1.2-2.7145-1.7-4.25-1.7z"
+												fill="#ffffff"
+											></path>
+										</g>
+									</g>
+								</svg>
+							</div>
+
+							<br />
+
+							<div class="mb-4" id="card-text">
+								<p class="d-flex    align-items-center">
+									<span id="product-price" class="fs-3"></span>
+									<span id="discounted-price" class="fs-2 discount-price"></span>
+								</p>
+
+								<p id="product-description" class="card-text"></p>
+
+								<p class="card-text">
+									<small id="warranty-container" class="text-body-secondary"
+										><b>Warranty: </b><span id="warranty-text"></span
+									></small>
+								</p>
+							</div>
+
+							<div id="btn-container" class="d-flex justify-content-between">
+								<div class="btn-group" role="group">
+									<button type="button" id="minus-btn" class="btn fw-bold quantity-btns">-</button>
+									<button type="button" id="quantity-num" class="btn quantity-btns">1</button>
+									<button type="button" id="plus-btn" class="btn fw-bold quantity-btns">+</button>
+								</div>
+
+								<a href="#" class="btn" id="add-to-cart-details">Add to cart</a>
+							</div>
+
+							<br />
+
+							<div id="accordion-container" class="accordion accordion-flush">
+								<div class="accordion-item">
+									<div id="accordion-header-container">
+										<h2 class="accordion-header">
+											<button
+												id="product-details"
+												class="accordion-button collapsed"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#flush-collapseOne"
+												aria-expanded="false"
+												aria-controls="flush-collapseOne"
+											>
+												Product details
+											</button>
+										</h2>
+									</div>
+
+									<div
+										id="flush-collapseOne"
+										class="accordion-collapse collapse"
+										data-bs-parent="#accordionFlushExample"
+									>
+										<div id="accordion-body-container" class="accordion-body"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="address" id="nav6">
+			  <img
+				src="/footer/logo/qintronics-high-resolution-logo-transparent.png"
+				alt="Shop Logo"
+			  />
+			  <ul class="lists">
+				<li id="street-name">11th October St. 33A, 1000 Skopje, Macedonia</li>
+				<li>info@qintronics.com</li>
+				<li>+389 70 001 001</li>
+			  </ul>
+			</div>
+			<div class="links">
+			  <h3>Shopping & Categories</h3>
+			  <ul class="lists">
+				<li><a href="./">Categories</a></li>
+				<li><a href="./">Favorites</a></li>
+				<li><a href="./">Cart</a></li>
+			  </ul>
+			</div>
+			<div class="links">
+			  <h3>Useful links</h3>
+			  <ul class="lists">
+				<li><a href="">Homepage</a></li>
+				<li><a href="">About us</a></li>
+				<li><a href="">Contact Us</a></li>
+			  </ul>
+			</div>
+			<div class="links">
+			  <h3>Help & Information</h3>
+			  <ul class="lists">
+				<li><a href="">Help</a></li>
+				<li><a href=""></a>Shipping</li></li>
+				<li><a href=""></a>Tracking ID</a></li>
+			  </ul>
+			</div>
+			<div class="payments">
+			  <ul class="lists">
+				<li><img src="/footer/Assets/mastercard-footer.svg" alt="" /></li>
+				<li><img src="/footer/Assets/amex-footer.svg" alt="" /></li>
+				<li><img src="/footer/Assets/paypal-footer.svg" alt="" /></li>
+				<li><img src="/footer/Assets/visa-footer.svg" alt="" /></li>
+				<li><img src="/footer/Assets/diners-footer.svg" alt="" /></li>
+			  </ul>
+			</div>
+			<div class="copyrights">
+			  © <span id="year"></span> Qintronics, Qinshift Academy G1, G3. All
+			  rights reserved.
+			</div>
+		  </footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+			crossorigin="anonymous"
+		></script>
+		<script src="product-details-page-app.js" type="module"></script>
+		<script src="../navbar/navbar.js"></script>
+		<script src="/footer/footer.js"></script>
+	</body>
+</html>

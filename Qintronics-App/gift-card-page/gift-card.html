@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Learn how to send an eGift card from Qintronics. Choose your design, select the gift value, and send it directly to the recipient or to yourself via email.">
+    <meta name="keywords" content="eGift card, gift card, online gift, Qintronics, send gift card">
+    <link rel="stylesheet" type="text/css" href="gift-card.css" />
+    <link rel="stylesheet" href="/navbar/navbar.css" type="text/css" />
+		<link rel="stylesheet" href="/footer/footer.css" type="text/css" />
+		<link rel="icon" type="image/x-icon" href="/navbar/hfassets/logo/qin-favicon.png">
+    <title>E-Gift Card</title>
+  </head>
+  <body>
+    <header class="nav-header">
+			<nav class="nav-sidebar">
+			  <ul>
+				<li class="mobile-v sale">
+				  <a href="/sales-page/sales-page.html">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/sale.svg" alt="On sale icon"
+					/></span>
+					<span class="nav-item">On sale</span>
+				  </a>
+				</li>
+				<li class="mobile-v gift">
+				  <a href="/gift-card-page/gift-card.html">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/gift.svg" alt="Gift Card icon"
+					/></span>
+					<span class="nav-item">Gift Card</span>
+				  </a>
+				</li>
+				<li>
+				  <a href="/home-page/home.html">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/home.svg" alt="Home icon"
+					/></span>
+					<span class="nav-item">Home</span>
+				  </a>
+				</li>
+				<li>
+				  <a href="#">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/info.svg" alt="About us icon"
+					/></span>
+					<span class="nav-item">About us</span>
+				  </a>
+				</li>
+				<li>
+				  <a href="/contact-page/contact.html">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/contact.svg" alt="Contact icon"
+					/></span>
+					<span class="nav-item">Contact</span>
+				  </a>
+				</li>
+				<li class="nav-sb-drdown language">
+				  <div class="select">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/language.svg" alt="Language icon"
+					/></span>
+					<span class="selected">EN</span>
+					<div class="arrow"></div>
+				  </div>
+				  <ul class="menu">
+					<li class="active">EN</li>
+					<li>MK</li>
+				  </ul>
+				</li>
+				<li class="nav-sb-drdown currency">
+				  <div class="select">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/cash.svg" alt="Currency"
+					/></span>
+					<span class="selected">USD</span>
+					<div class="arrow"></div>
+				  </div>
+				  <ul class="menu">
+					<li class="active">USD</li>
+					<li>MKD</li>
+				  </ul>
+				</li>
+			  </ul>
+			  <div class="sb-socials">
+				<a href="#">
+				  <span class="icon nav-icon">
+					<img src="./hfassets/icons/instagram-svg.svg" alt="Instagram" />
+				  </span>
+				</a>
+				<a href="#">
+				  <span class="icon nav-icon">
+					<img src="./hfassets/icons/gh.svg" alt="GitHub" />
+				  </span>
+				</a>
+				<a href="#">
+				  <span class="icon nav-icon">
+					<img src="./hfassets/icons/fb.svg" alt="Facebook" />
+				  </span>
+				</a>
+			  </div>
+			</nav>
+			<nav class="nav-main">
+			  <div class="nav-logo">
+				<div class="logo">
+				  <a href="/home-page/home.html">
+					<img
+					  src="./hfassets/logo/qintronics-logo.png"
+					  width="180px"
+					  height="auto"
+					  alt="Qintronics Logo"
+					/>
+				  </a>
+				</div>
+			  </div>
+			  <div class="nav-content">
+				<div class="searchbar">
+				  <input
+					class="search-input"
+					type="search"
+					placeholder="Search"
+					aria-label="Search"
+				  />
+				  <div class="search-button">
+					<img
+					  class="closed"
+					  src="./hfassets/icons/searchw.svg"
+					  alt="Search"
+					/>
+					<img
+					  class="open"
+					  src="./hfassets/icons/search.svg"
+					  alt="Search"
+					/>
+				  </div>
+				</div>
+				<div class="nav-btns">
+				  <a href="/sales-page/sales-page.html" class="nav-btn sale">On Sale</a>
+				  <a href="/gift-card-page/gift-card.html" class="nav-btn gift">Gift Card</a>
+				</div>
+				<div class="nav-link-icons">
+				  <div class="favourite">
+					<a
+					  href="/favourites-page/favourites-page.html"
+					  class="favourites-link"
+					>
+					  <span class="nav-icon"
+						><img src="./hfassets/icons/favorite.svg" alt="Favourites"
+					  /></span>
+					  <span class="badges fav">0</span>
+					</a>
+				  </div>
+				  <div class="cart">
+					<a href="/cart-page/index.html" class="cart-link">
+					  <span class="nav-icon"
+						><img src="./hfassets/icons/cart.svg" alt="Cart"
+					  /></span>
+					  <span class="badges cart">0</span>
+					</a>
+				  </div>
+				  <div class="login">
+					<a href="#" class="login-link">
+					  <span class="nav-icon"
+						><img src="./hfassets/icons/avatar2.svg" alt="Login"
+					  /></span>
+					</a>
+				  </div>
+				  <div class="mobile-v-sb">
+					<a href="#" class="sidebar-link">
+					  <span id="hbtn" class="nav-icon"
+						><img src="./hfassets/icons/hamburger-menu.svg" alt="Menu"
+					  /></span>
+					</a>
+				  </div>
+				</div>
+			  </div>
+			</nav>
+		  </header>
+    <div id="authModal" class="nav-login">
+      <div class="login-content">
+        <div class="login-header">
+          <img src="./hfassets/logo/logo-color.png" width="60px" alt="Logo" />
+          <h2 class="login-header-text">Have an account?</h2>
+        </div>
+        <form id="login-form" class="auth-form">
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="john.doe@mail.com"
+            required
+          />
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <div class="form-options">
+            <div class="remember">
+              <input type="checkbox" name="remember" id="remember" />
+              <label for="remember">Remember me</label>
+            </div>
+            <a href="#">Forgot password?</a>
+          </div>
+          <button type="submit">Login</button>
+        </form>
+        <div class="register">
+          <h5>Or create one:</h5>
+          <button class="toggle-button">Sign Up</button>
+        </div>
+        <form id="signup-form" class="auth-form">
+          <label for="new-username">Username:</label>
+          <input
+            type="text"
+            id="new-username"
+            name="username"
+            placeholder="john.doe@mail.com"
+            required
+          />
+          <label for="new-password">Password:</label>
+          <input
+            type="password"
+            id="new-password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <label for="confirm-password">Confirm Password:</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            placeholder="Confirm Password"
+            required
+          />
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Steps for ordering eGift Card -->
+    <div class="guide">
+      <h1 id="title">How to send an eGift card?</h1>
+
+      <div class="steps">
+        <div class="step">
+          <svg
+            width="64px"
+            height="64px"
+            viewBox="0 0 64 64"
+            id="Flat"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="#000000"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+
+            <g id="SVGRepo_iconCarrier">
+              <rect
+                height="58"
+                rx="2"
+                ry="2"
+                style="fill: #06255b"
+                width="44"
+                x="10"
+                y="3"
+              />
+
+              <rect
+                height="16"
+                style="fill: #1bd8c4"
+                width="18"
+                x="23"
+                y="17"
+              />
+
+              <polygon
+                points="37 13 32 15 27 13 26 17 32 17 38 17 37 13"
+                style="fill: #fff"
+              />
+
+              <rect height="16" style="fill: #fff" width="2" x="31" y="17" />
+
+              <rect height="2" style="fill: #fff" width="18" x="23" y="24" />
+
+              <path
+                d="M46,46H18a1,1,0,0,1,0-2H46a1,1,0,0,1,0,2Z"
+                style="fill: #fff"
+              />
+
+              <path
+                d="M46,52H18a1,1,0,0,1,0-2H46a1,1,0,0,1,0,2Z"
+                style="fill: #fff"
+              />
+
+              <path
+                d="M37,40H27a1,1,0,0,1,0-2H37a1,1,0,0,1,0,2Z"
+                style="fill: #fff"
+              />
+            </g>
+          </svg>
+          <p>
+            <div class="step-text">
+            1. Choose your design, choose the gift value <br/> and confirm your
+            details
+          </div>
+          </p>
+        </div>
+        <div class="step">
+          <svg
+            width="64px"
+            height="64px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            stroke="#06255B"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M3 17H21M12 8L10 12M12 8L14 12M12 8H7.5C6.83696 8 6.20107 7.73661 5.73223 7.26777C5.26339 6.79893 5 6.16304 5 5.5C5 4.83696 5.26339 4.20107 5.73223 3.73223C6.20107 3.26339 6.83696 3 7.5 3C11 3 12 8 12 8ZM12 8H16.5C17.163 8 17.7989 7.73661 18.2678 7.26777C18.7366 6.79893 19 6.16304 19 5.5C19 4.83696 18.7366 4.20107 18.2678 3.73223C17.7989 3.26339 17.163 3 16.5 3C13 3 12 8 12 8ZM6.2 21H17.8C18.9201 21 19.4802 21 19.908 20.782C20.2843 20.5903 20.5903 20.2843 20.782 19.908C21 19.4802 21 18.9201 21 17.8V11.2C21 10.0799 21 9.51984 20.782 9.09202C20.5903 8.71569 20.2843 8.40973 19.908 8.21799C19.4802 8 18.9201 8 17.8 8H6.2C5.0799 8 4.51984 8 4.09202 8.21799C3.71569 8.40973 3.40973 8.71569 3.21799 9.09202C3 9.51984 3 10.0799 3 11.2V17.8C3 18.9201 3 19.4802 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.51984 21 5.07989 21 6.2 21Z"
+                stroke="#06255B"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+          </svg>
+          <p>
+            <div class="step-text">
+            2. Select how you would like to send your eGift <br/>  – directly to the
+            recipient or to yourself via email
+          </div>
+          </p>
+        </div>
+        <div class="step">
+          <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+            <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+            
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+            
+            <g id="SVGRepo_iconCarrier"> <path d="M12 7V20M12 7H8.46429C7.94332 7 7.4437 6.78929 7.07533 6.41421C6.70695 6.03914 6.5 5.53043 6.5 5C6.5 4.46957 6.70695 3.96086 7.07533 3.58579C7.4437 3.21071 7.94332 3 8.46429 3C11.2143 3 12 7 12 7ZM12 7H15.5357C16.0567 7 16.5563 6.78929 16.9247 6.41421C17.293 6.03914 17.5 5.53043 17.5 5C17.5 4.46957 17.293 3.96086 16.9247 3.58579C16.5563 3.21071 16.0567 3 15.5357 3C12.7857 3 12 7 12 7ZM5 12H19V17.8C19 18.9201 19 19.4802 18.782 19.908C18.5903 20.2843 18.2843 20.5903 17.908 20.782C17.4802 21 16.9201 21 15.8 21H8.2C7.07989 21 6.51984 21 6.09202 20.782C5.71569 20.5903 5.40973 20.2843 5.21799 19.908C5 19.4802 5 18.9201 5 17.8V12ZM4.6 12H19.4C19.9601 12 20.2401 12 20.454 11.891C20.6422 11.7951 20.7951 11.6422 20.891 11.454C21 11.2401 21 10.9601 21 10.4V8.6C21 8.03995 21 7.75992 20.891 7.54601C20.7951 7.35785 20.6422 7.20487 20.454 7.10899C20.2401 7 19.9601 7 19.4 7H4.6C4.03995 7 3.75992 7 3.54601 7.10899C3.35785 7.20487 3.20487 7.35785 3.10899 7.54601C3 7.75992 3 8.03995 3 8.6V10.4C3 10.9601 3 11.2401 3.10899 11.454C3.20487 11.6422 3.35785 11.7951 3.54601 11.891C3.75992 12 4.03995 12 4.6 12Z" stroke="#06255B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+          </svg>
+          <p>
+            <div class="step-text">
+            3. The recipient can redeem their <br/>  eGift card on
+            https://qintronics.com/
+            </div>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <h1>Choose your design</h1>
+    <!-- Image design -->
+    <div class="card-group">
+      <div class="card">
+        <img src="eGift-images/eGift-image-1.webp" alt="Card 1" width="250" height="250" />
+        <div class="preview" data-preview-src="canva-preview-images/1.png" onclick="openPreview(this)">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          Preview this card
+        </div>
+        <button class="select-btn">Select</button>
+      </div>
+      <div class="card">
+        <img src="eGift-images/eGift-image-2.webp" alt="Card 2" width="250" height="250" />
+        <div class="preview" data-preview-src="canva-preview-images/2.png" onclick="openPreview(this)">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          Preview this card
+        </div>
+        <button class="select-btn">Select</button>
+      </div>
+      <div class="card">
+        <img src="eGift-images/eGift-image-3.webp" alt="Card 3" width="250" height="250" />
+        <div class="preview" data-preview-src="canva-preview-images/3.png" onclick="openPreview(this)">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          Preview this card
+        </div>
+        <button class="select-btn">Select</button>
+      </div>
+      <div class="card">
+        <img src="eGift-images/eGift-image-4.webp" alt="Card 4" width="250" height="250" />
+        <div class="preview" data-preview-src="canva-preview-images/4.png" onclick="openPreview(this)">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          Preview this card
+        </div>
+        <button class="select-btn">Select</button>
+      </div>
+    </div>
+
+    <h1>Enter your details</h1>
+    <form id="giftCardForm">
+      <div class="form-group">
+        <input
+          type="text"
+          id="from"
+          name="from"
+          minlength="3"
+          maxlength="50"
+          placeholder="From *"
+          required
+        />
+        <label for="from" class="floating-label">From *</label>
+      </div>
+      
+      <div class="form-group">
+        <input
+          type="text"
+          id="to"
+          name="to"
+          minlength="3"
+          maxlength="50"
+          placeholder="To *"
+          required
+        />
+        <label for="to" class="floating-label">To *</label>
+      </div>
+      
+      <label>How do you want to receive this eGift Card?</label>
+      <div class="delivery-option-group">
+        <input
+          type="radio"
+          id="sendToRecipient"
+          name="delivery"
+          value="recipient"
+          required
+          checked
+        />
+        <label for="sendToRecipient">
+          Send it to the recipient
+          <span class="tooltip-icon">?
+            <span class="tooltip-text">
+              “Send it to the recipient” will email the eGift Card directly to the lucky recipient for them to redeem on https://qintronics.com
+            </span>
+          </span>
+        </label>
+        <br>
+        <input type="radio" id="sendToMe" name="delivery" value="me" />
+        <label for="sendToMe">
+          Send it to me
+          <span class="tooltip-icon">?
+            <span class="tooltip-text">
+              “Send it to me” will email the eGift Card directly to your inbox so you can print it. The recipient can redeem their eGift Card on https://qintronics.com
+            </span>
+          </span>
+        </label>
+      </div>
+      <br />
+      <div class="email-inputs">
+        <div class="form-group">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Recipient's email *"
+            required
+            onfocus="setEmailPlaceholder(this, 'Please enter the recipient\'s email')"
+            onblur="resetEmailPlaceholder(this, 'Recipient\'s email *')"
+          />
+          <span id="emailError" style="color: red;"></span>
+        </div>
+        <div class="form-group">
+          <input
+            type="email"
+            id="confirmEmail"
+            name="confirmEmail"
+            placeholder="Confirm recipient's email *"
+            required
+            onfocus="setEmailPlaceholder(this, 'Please confirm the recipient\'s email')"
+            onblur="resetEmailPlaceholder(this, 'Confirm recipient\'s email *')"
+          />
+          <span id="confirmEmailError" style="color: red;"></span>
+        </div>
+      </div>
+            
+
+      <label>Select Amount:</label>
+      <div class="radio-group">
+        <input type="radio" id="amount30" name="amount" value="30" />
+        <label for="amount30">€30</label>
+        <input type="radio" id="amount40" name="amount" value="40" />
+        <label for="amount40">€40</label>
+        <input type="radio" id="amount50" name="amount" value="50" />
+        <label for="amount50">€50</label>
+        <input type="radio" id="amount100" name="amount" value="100" />
+        <label for="amount100">€100</label>
+      </div>
+
+      <label for="customAmount"
+        >Or choose an amount between €30 and €1,000</label
+      >
+
+      <div class="form-group-amount">
+        <input
+          type="number"
+          id="customAmount"
+          name="customAmount"
+          min=30
+          max="1000"
+          placeholder=" "
+          required
+        />
+        <label for="customAmount">Amount *</label>
+        <p id="amountError" style="color: red; display: none;">Please select or choose an amount.</p>
+      </div>
+      <h6>This eGift card can only be redeemed on https://qintronics.com/</h6>
+
+      <div class="form-group">
+        <textarea id="message" name="message" placeholder=" "></textarea>
+        <label for="message">Message</label>
+      </div>
+
+      <input type="hidden" id="selectedCard" name="selectedCard" />
+      <button type="submit" id="btnAddToCart">Add to Cart</button>
+    </form>
+
+    <footer>
+      <div class="address" id="nav6">
+        <img
+          src="/footer/logo/qintronics-high-resolution-logo-transparent.png"
+          alt="Shop Logo"
+        />
+        <ul class="lists">
+          <li id="street-name">11th October St. 33A, 1000 Skopje, Macedonia</li>
+          <li>info@qintronics.com</li>
+          <li>+389 70 001 001</li>
+        </ul>
+      </div>
+      <div class="links">
+        <h3>Shopping & Categories</h3>
+        <ul class="lists">
+          <li><a href="/category-page/category-page.html">Categories</a></li>
+          <li><a href="/favourites-page/favourites-page.html">Favorites</a></li>
+          <li><a href="/cart-page/index.html">Cart</a></li>
+        </ul>
+      </div>
+      <div class="links">
+        <h3>Useful links</h3>
+        <ul class="lists">
+          <li><a href="/home-page/home.html">Homepage</a></li>
+          <li><a href="/contact-page/contact.html">About us</a></li>
+          <li><a href="/contact-page/contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="links">
+        <h3>Help & Information</h3>
+        <ul class="lists">
+          <li><a href="">Help</a></li>
+          <li><a href="">Shipping</a></li>
+          <li><a href="">Tracking ID</a></li>
+        </ul>
+      </div>
+      <div class="payments">
+        <ul class="lists">
+          <li><img src="/footer/Assets/mastercard-footer.svg" alt="" /></li>
+          <li><img src="/footer/Assets/amex-footer.svg" alt="" /></li>
+          <li><img src="/footer/Assets/paypal-footer.svg" alt="" /></li>
+          <li><img src="/footer/Assets/visa-footer.svg" alt="" /></li>
+          <li><img src="/footer/Assets/diners-footer.svg" alt="" /></li>
+        </ul>
+      </div>
+      <div class="copyrights">
+        © <span id="year"></span> Qintronics, Qinshift Academy G1, G3. All
+        rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="gift-card.js"></script>
+    <script src="/navbar/navbar.js"></script>
+    <script src="/footer/footer.js"></script>
+  </body>
+</html>

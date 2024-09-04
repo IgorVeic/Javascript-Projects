@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Order Summary</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="summary-styles.css" />
+		<link rel="stylesheet" href="/navbar/navbar.css" />
+		<link rel="stylesheet" href="/footer/footer.css" type="text/css" />
+		<link rel="icon" type="image/x-icon" href="/navbar/hfassets/logo/qin-favicon.png">
+
+	</head>
+	<body>
+		<header class="nav-header">
+			<nav class="nav-sidebar">
+			  <ul>
+				<li class="mobile-v sale">
+				  <a href="/sales-page/sales-page.html">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/sale.svg" alt="On sale icon"
+					/></span>
+					<span class="nav-item">On sale</span>
+				  </a>
+				</li>
+				<li class="mobile-v gift">
+				  <a href="/gift-card-page/gift-card.html">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/gift.svg" alt="Gift Card icon"
+					/></span>
+					<span class="nav-item">Gift Card</span>
+				  </a>
+				</li>
+				<li>
+				  <a href="/home-page/home.html">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/home.svg" alt="Home icon"
+					/></span>
+					<span class="nav-item">Home</span>
+				  </a>
+				</li>
+				<li>
+				  <a href="#">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/info.svg" alt="About us icon"
+					/></span>
+					<span class="nav-item">About us</span>
+				  </a>
+				</li>
+				<li>
+				  <a href="/contact-page/contact.html">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/contact.svg" alt="Contact icon"
+					/></span>
+					<span class="nav-item">Contact</span>
+				  </a>
+				</li>
+				<li class="nav-sb-drdown language">
+				  <div class="select">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/language.svg" alt="Language icon"
+					/></span>
+					<span class="selected">EN</span>
+					<div class="arrow"></div>
+				  </div>
+				  <ul class="menu">
+					<li class="active">EN</li>
+					<li>MK</li>
+				  </ul>
+				</li>
+				<li class="nav-sb-drdown currency">
+				  <div class="select">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/cash.svg" alt="Currency"
+					/></span>
+					<span class="selected">USD</span>
+					<div class="arrow"></div>
+				  </div>
+				  <ul class="menu">
+					<li class="active">USD</li>
+					<li>MKD</li>
+				  </ul>
+				</li>
+			  </ul>
+			  <div class="sb-socials">
+				<a href="#">
+				  <span class="icon nav-icon">
+					<img src="./hfassets/icons/instagram-svg.svg" alt="Instagram" />
+				  </span>
+				</a>
+				<a href="#">
+				  <span class="icon nav-icon">
+					<img src="./hfassets/icons/gh.svg" alt="GitHub" />
+				  </span>
+				</a>
+				<a href="#">
+				  <span class="icon nav-icon">
+					<img src="./hfassets/icons/fb.svg" alt="Facebook" />
+				  </span>
+				</a>
+			  </div>
+			</nav>
+			<nav class="nav-main">
+			  <div class="nav-logo">
+				<div class="logo">
+				  <a href="/home-page/home.html">
+					<img
+					  src="./hfassets/logo/qintronics-logo.png"
+					  width="180px"
+					  height="auto"
+					  alt="Qintronics Logo"
+					/>
+				  </a>
+				</div>
+			  </div>
+			  <div class="nav-content">
+				<div class="searchbar">
+				  <input
+					class="search-input"
+					type="search"
+					placeholder="Search"
+					aria-label="Search"
+				  />
+				  <div class="search-button">
+					<img
+					  class="closed"
+					  src="./hfassets/icons/searchw.svg"
+					  alt="Search"
+					/>
+					<img
+					  class="open"
+					  src="./hfassets/icons/search.svg"
+					  alt="Search"
+					/>
+				  </div>
+				</div>
+				<div class="nav-btns">
+				  <a href="/sales-page/sales-page.html" class="nav-btn sale">On Sale</a>
+				  <a href="/gift-card-page/gift-card.html" class="nav-btn gift">Gift Card</a>
+				</div>
+				<div class="nav-link-icons">
+					<div class="favourite">
+					  <a
+						href="/favourites-page/favourites-page.html"
+						class="favourites-link"
+					  >
+						<span class="nav-icon"
+						  ><img src="./hfassets/icons/favorite.svg" alt="Favourites"
+						/></span>
+						<span class="badges fav">0</span>
+					  </a>
+					</div>
+					<div class="cart">
+					  <a href="/cart-page/index.html" class="cart-link">
+						<span class="nav-icon"
+						  ><img src="./hfassets/icons/cart.svg" alt="Cart"
+						/></span>
+						<span class="badges cart">0</span>
+					  </a>
+					</div>
+					<div class="login">
+					  <a href="#" class="login-link">
+						<span class="nav-icon"
+						  ><img src="./hfassets/icons/avatar2.svg" alt="Login"
+						/></span>
+					  </a>
+					</div>
+					<div class="mobile-v-sb">
+					  <a href="#" class="sidebar-link">
+						<span id="hbtn" class="nav-icon"
+						  ><img src="./hfassets/icons/hamburger-menu.svg" alt="Menu"
+						/></span>
+					  </a>
+					</div>
+				  </div>
+			  </div>
+			</nav>
+		  </header>
+		  <div id="authModal" class="nav-login">
+			<div class="login-content">
+			  <div class="login-header">
+				<img src="./hfassets/logo/logo-color.png" width="60px" alt="Logo" />
+				<h2 class="login-header-text">Have an account?</h2>
+			  </div>
+			  <form id="login-form" class="auth-form">
+				<label for="username">Username:</label>
+				<input
+				  type="text"
+				  id="username"
+				  name="username"
+				  placeholder="john.doe@mail.com"
+				  required
+				/>
+				<label for="password">Password:</label>
+				<input
+				  type="password"
+				  id="password"
+				  name="password"
+				  placeholder="Password"
+				  required
+				/>
+				<div class="form-options">
+				  <div class="remember">
+					<input type="checkbox" name="remember" id="remember" />
+					<label for="remember">Remember me</label>
+				  </div>
+				  <a href="#">Forgot password?</a>
+				</div>
+				<button type="submit">Login</button>
+			  </form>
+			  <div class="register">
+				<h5>Or create one:</h5>
+				<button class="toggle-button">Sign Up</button>
+			  </div>
+			  <form id="signup-form" class="auth-form">
+				<label for="new-username">Username:</label>
+				<input
+				  type="text"
+				  id="new-username"
+				  name="username"
+				  placeholder="john.doe@mail.com"
+				  required
+				/>
+				<label for="new-password">Password:</label>
+				<input
+				  type="password"
+				  id="new-password"
+				  name="password"
+				  placeholder="Password"
+				  required
+				/>
+				<label for="confirm-password">Confirm Password:</label>
+				<input
+				  type="password"
+				  id="confirm-password"
+				  name="confirm-password"
+				  placeholder="Confirm Password"
+				  required
+				/>
+				<button type="submit">Sign Up</button>
+			  </form>
+			</div>
+		  </div>
+
+		<div>
+			<h1>Order Summary</h1>
+		</div>
+		<div class="container">
+			<p><strong>Name:</strong> <span id="name"></span></p>
+			<p><strong>Street:</strong> <span id="street"></span></p>
+			<p><strong>Phone Number:</strong> <span id="phone"></span></p>
+			<p><strong>Email:</strong> <span id="email"></span></p>
+			<p>
+				<strong>Preferred Day of Delivery:</strong>
+				<span id="deliveryDay"></span>
+			</p>
+		</div>
+
+		<div class="btn-container">
+			<a href="/home-page/home.html">
+			<button class="btn" type="button">Back to Home</button>
+		</a>
+		</div>
+
+		<footer>
+			<div class="address" id="nav6">
+			  <img
+				src="/footer/logo/qintronics-high-resolution-logo-transparent.png"
+				alt="Shop Logo"
+			  />
+			  <ul class="lists">
+				<li id="street-name">11th October St. 33A, 1000 Skopje, Macedonia</li>
+				<li>info@qintronics.com</li>
+				<li>+389 70 001 001</li>
+			  </ul>
+			</div>
+			<div class="links">
+			  <h3>Shopping & Categories</h3>
+			  <ul class="lists">
+				<li><a href="./">Categories</a></li>
+				<li><a href="./">Favorites</a></li>
+				<li><a href="./">Cart</a></li>
+			  </ul>
+			</div>
+			<div class="links">
+			  <h3>Useful links</h3>
+			  <ul class="lists">
+				<li><a href="">Homepage</a></li>
+				<li><a href="">About us</a></li>
+				<li><a href="">Contact Us</a></li>
+			  </ul>
+			</div>
+			<div class="links">
+			  <h3>Help & Information</h3>
+			  <ul class="lists">
+				<li><a href="">Help</a></li>
+				<li><a href=""></a>Shipping</li></li>
+				<li><a href=""></a>Tracking ID</a></li>
+			  </ul>
+			</div>
+			<div class="payments">
+			  <ul class="lists">
+				<li><img src="/footer/Assets/mastercard-footer.svg" alt="" /></li>
+				<li><img src="/footer/Assets/amex-footer.svg" alt="" /></li>
+				<li><img src="/footer/Assets/paypal-footer.svg" alt="" /></li>
+				<li><img src="/footer/Assets/visa-footer.svg" alt="" /></li>
+				<li><img src="/footer/Assets/diners-footer.svg" alt="" /></li>
+			  </ul>
+			</div>
+			<div class="copyrights">
+			  © <span id="year"></span> Qintronics, Qinshift Academy G1, G3. All
+			  rights reserved.
+			</div>
+		  </footer>
+
+		<script src="summary-script.js"></script>
+		<script src="/navbar/navbar.js"></script>
+		<script src="/footer/footer.js"></script>
+	</body>
+</html>

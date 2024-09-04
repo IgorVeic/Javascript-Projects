@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/sidebar/sidebar.css" />
+        <link
+        href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./slider.css" />
+    <link rel="stylesheet" href="./cards.css" />
+    <link rel="stylesheet" href="./sliderdiv.css" />
+    <link rel="stylesheet" href="././newsletter/news.css" />
+    <link rel="stylesheet" href="/navbar/navbar.css" />
+    <link rel="stylesheet" href="/footer/footer.css" type="text/css" />
+		<link rel="icon" type="image/x-icon" href="/navbar/hfassets/logo/qin-favicon.png">
+
+  </head>
+  <body>
+    <header class="nav-header">
+			<nav class="nav-sidebar">
+			  <ul>
+				<li class="mobile-v sale">
+				  <a href="/sales-page/sales-page.html">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/sale.svg" alt="On sale icon"
+					/></span>
+					<span class="nav-item">On sale</span>
+				  </a>
+				</li>
+				<li class="mobile-v gift">
+				  <a href="/gift-card-page/gift-card.html">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/gift.svg" alt="Gift Card icon"
+					/></span>
+					<span class="nav-item">Gift Card</span>
+				  </a>
+				</li>
+				<li>
+				  <a href="/home-page/home.html">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/home.svg" alt="Home icon"
+					/></span>
+					<span class="nav-item">Home</span>
+				  </a>
+				</li>
+				<li>
+				  <a href="#">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/info.svg" alt="About us icon"
+					/></span>
+					<span class="nav-item">About us</span>
+				  </a>
+				</li>
+				<li>
+				  <a href="/contact-page/contact.html">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/contact.svg" alt="Contact icon"
+					/></span>
+					<span class="nav-item">Contact</span>
+				  </a>
+				</li>
+				<li class="nav-sb-drdown language">
+				  <div class="select">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/language.svg" alt="Language icon"
+					/></span>
+					<span class="selected">EN</span>
+					<div class="arrow"></div>
+				  </div>
+				  <ul class="menu">
+					<li class="active">EN</li>
+					<li>MK</li>
+				  </ul>
+				</li>
+				<li class="nav-sb-drdown currency">
+				  <div class="select">
+					<span class="nav-sm-icon"
+					  ><img src="./hfassets/icons/cash.svg" alt="Currency"
+					/></span>
+					<span class="selected">USD</span>
+					<div class="arrow"></div>
+				  </div>
+				  <ul class="menu">
+					<li class="active">USD</li>
+					<li>MKD</li>
+				  </ul>
+				</li>
+			  </ul>
+			  <div class="sb-socials">
+				<a href="#">
+				  <span class="icon nav-icon">
+					<img src="./hfassets/icons/instagram-svg.svg" alt="Instagram" />
+				  </span>
+				</a>
+				<a href="#">
+				  <span class="icon nav-icon">
+					<img src="./hfassets/icons/gh.svg" alt="GitHub" />
+				  </span>
+				</a>
+				<a href="#">
+				  <span class="icon nav-icon">
+					<img src="./hfassets/icons/fb.svg" alt="Facebook" />
+				  </span>
+				</a>
+			  </div>
+			</nav>
+			<nav class="nav-main">
+			  <div class="nav-logo">
+				<div class="logo">
+				  <a href="/home-page/home.html">
+					<img
+					  src="./hfassets/logo/qintronics-logo.png"
+					  width="180px"
+					  height="auto"
+					  alt="Qintronics Logo"
+					/>
+				  </a>
+				</div>
+			  </div>
+			  <div class="nav-content">
+				<div class="searchbar">
+				  <input
+					class="search-input"
+					type="search"
+					placeholder="Search"
+					aria-label="Search"
+				  />
+				  <div class="search-button">
+					<img
+					  class="closed"
+					  src="./hfassets/icons/searchw.svg"
+					  alt="Search"
+					/>
+					<img
+					  class="open"
+					  src="./hfassets/icons/search.svg"
+					  alt="Search"
+					/>
+				  </div>
+				</div>
+				<div class="nav-btns">
+				  <a href="/sales-page/sales-page.html" class="nav-btn sale">On Sale</a>
+				  <a href="/gift-card-page/gift-card.html" class="nav-btn gift">Gift Card</a>
+				</div>
+				<div class="nav-link-icons">
+				  <div class="favourite">
+					<a
+					  href="/favourites-page/favourites-page.html"
+					  class="favourites-link"
+					>
+					  <span class="nav-icon"
+						><img src="./hfassets/icons/favorite.svg" alt="Favourites"
+					  /></span>
+					  <span class="badges fav">0</span>
+					</a>
+				  </div>
+				  <div class="cart">
+					<a href="/cart-page/index.html" class="cart-link">
+					  <span class="nav-icon"
+						><img src="./hfassets/icons/cart.svg" alt="Cart"
+					  /></span>
+					  <span class="badges cart">0</span>
+					</a>
+				  </div>
+				  <div class="login">
+					<a href="#" class="login-link">
+					  <span class="nav-icon"
+						><img src="./hfassets/icons/avatar2.svg" alt="Login"
+					  /></span>
+					</a>
+				  </div>
+				  <div class="mobile-v-sb">
+					<a href="#" class="sidebar-link">
+					  <span id="hbtn" class="nav-icon"
+						><img src="./hfassets/icons/hamburger-menu.svg" alt="Menu"
+					  /></span>
+					</a>
+				  </div>
+				</div>
+			  </div>
+			</nav>
+		  </header>
+    <div id="authModal" class="nav-login">
+      <div class="login-content">
+        <div class="login-header">
+          <img src="./hfassets/logo/logo-color.png" width="60px" alt="Logo" />
+          <h2 class="login-header-text">Have an account?</h2>
+        </div>
+        <form id="login-form" class="auth-form">
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="john.doe@mail.com"
+            required
+          />
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <div class="form-options">
+            <div class="remember">
+              <input type="checkbox" name="remember" id="remember" />
+              <label for="remember">Remember me</label>
+            </div>
+            <a href="#">Forgot password?</a>
+          </div>
+          <button type="submit">Login</button>
+        </form>
+        <div class="register">
+          <h5>Or create one:</h5>
+          <button class="toggle-button">Sign Up</button>
+        </div>
+        <form id="signup-form" class="auth-form">
+          <label for="new-username">Username:</label>
+          <input
+            type="text"
+            id="new-username"
+            name="username"
+            placeholder="john.doe@mail.com"
+            required
+          />
+          <label for="new-password">Password:</label>
+          <input
+            type="password"
+            id="new-password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <label for="confirm-password">Confirm Password:</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            placeholder="Confirm Password"
+            required
+          />
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="sidebar close">
+      <ul class="nav-links">
+          <li>
+          <div class="icon-link">
+              <a href="#" id="laptops-main">
+              <i class="bx bx-laptop"></i>
+              <span class="Laptops" id="Laptop"></span>
+              </a>
+              <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+              <li><a class="Laptops" id="laptops" href="#">Laptops</a></li>
+          </ul>
+          </li>
+          <li>
+          <div class="icon-link">
+              <a href="#" id="pc-components">
+              <i class="bx bx-desktop"></i>
+              <span class="PC Components"></span>
+              </a>
+              <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+              <li><a class="PC Components" id="graphicsCards" href="#">Graphics Cards</a></li>
+              <li><a class="PC Components" id="processors" href="#">Processors</a></li>
+              <li><a class="PC Components" id="ram" href="#">RAM</a></li>
+          </ul>
+          </li>
+          <li>
+          <div class="icon-link">
+              <a href="#" id="tv-main">
+              <i class="bx bx-tv"></i>
+              <span class="TVs" id="TVs"></span>
+              </a>
+              <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+              <li><a class="TVs" id="tvs" href="#">TV</a></li>
+          </ul>
+          </li>
+          <li>
+          <a href="#" id="photos">
+              <i class='bx bx-camera'></i>
+              <span class="link_name" class="Photo, video and drones" id="Photo, video and drones"></span>
+          </a>
+          <ul class="sub-menu">
+              <li><a class="Photo, video and drones" id="cameras" href="#">Cameras</a></li>
+              <li><a class="Photo, video and drones" id="actionCameras" href="#">Action Cameras</a></li>
+              <li><a class="Photo, video and drones" id="drones" href="#">Drones</a></li>
+
+          </ul>
+          </li>
+          <li>
+          <a href="#" id="accessories">
+              <i class='bx bx-joystick'></i>
+              <span class="Accessories"></span>
+          </a>
+          <ul class="sub-menu">
+              
+              <li><a class="Accessories" id="keyboard" href="#">Keyboards</a></li>
+              <li><a class="Accessories" id="mouse" href="#">Gaming Mice</a></li>
+              <li><a class="Accessories" id="mousePads" href="#">Mouse Pads</a></li>
+          </ul>
+          </li>
+          <li>
+          <div class="icon-link">
+              <a href="#" id="gaming">
+              <i class='bx bx-game'></i>
+              <span class="link_name">Games</span>
+              </a>
+              <i class="bx bxs-chevron-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="Gaming" id="gamingChair">Gaming Chair</a></li>
+              <li><a href="#" class="Gaming" id="games">Video Games</a></li>
+              <li><a href="#" class="Gaming" id="controllers">Controllers</a></li>
+          </ul>
+          </li>
+          
+          </li>
+      </ul>
+      </div>
+<div class="home-page">
+    <div class=>
+      <div class="slide-top">
+        <div class="sliderdiv">
+          <div class="slider-container"></div>
+          <div class="dots-container"></div>
+        </div>
+      </div>
+      </div>
+      <!-- small ads reactive -->
+      <!-- <div class="small-ads">
+        <img
+          src="./imgs/Najlepszy-iPhone-1024x410.png"
+          alt="laptop"
+          width="250px"
+        />
+      </div>
+      <div class="small-ads" >
+        <img
+          src="./imgs/313F4A3C-A666-4F35-AEFE-94882105AA97-832x447.jpeg"
+          alt="laptop"
+          width="250px"
+        />
+      </div> -->
+    <!-- </div> -->
+    <!-- small ads reactive -->
+    <!-- <div class="top-div">
+    <div class="top-section">
+        <div class="rgb-boxs">
+            <div class="sponsored-items">
+                <img class="product-image" src="" width="600px" height="400px" alt="product-image-1" />
+            </div>
+        </div>
+        <div class="rgb-box">
+            <div class="sponsored-items">
+                <img class="product-images" src="./imgs/razermainlaptop.jpg" width="600px" height="400px" alt="product-image-2" />
+            </div>
+        </div>
+        <div class="rgb-boxs">
+            <div class="sponsored-items">
+                <img class="product-image" src="" width="600px" height="400px" alt="product-image-3" />
+            </div>
+        </div>
+        <div class="rgb-boxs">
+            <div class="sponsored-items">
+                <img class="product-image" src="" width="600px" height="400px" alt="product-image-4" />
+            </div>
+        </div>
+    </div>
+</div> -->
+
+    <div class="slider" id="slider">
+      <!-- Items will be injected by JavaScript -->
+    </div>
+    <div class="blue-section">
+      <div class="featured-product-text">
+        <h3>Featured Products</h3>
+        <p>Shop Now!</p>
+        <button>View All</button>
+      </div>
+      <div class="featured-section">
+        <div class="featured-products">
+          <!-- Placeholder for featured products -->
+          <!-- populated dynamically by JavaScript -->
+        </div>
+      </div>
+    </div>
+    <div class="new-container">
+      <div class="new-products-container">
+        <div class="new-products-section">
+          <!-- Product cards will be dynamically generated here -->
+        </div>
+        <div class="navigation-buttons">
+          <button class="prev-button" disabled>&lt; Prev</button>
+          <button class="next-button">Next &gt;</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ads section -->
+    <div class="ads">
+      <div>
+        <img
+          src="./imgs/Apple-iPhone-15-promo-banner-buy-now-scaled.jpg"
+          alt="laptop"
+          width="900px"
+        />
+      </div>
+    </div>
+    <div class="new-container" id="new-products-2">
+      <div class="new-products-container">
+        <div class="new-products-section" id="new-products-section-2">
+          <!-- Product cards will be dynamically generated here -->
+        </div>
+        <div class="navigation-buttons">
+          <button class="prev-button-2" disabled>&lt; Prev</button>
+          <button class="next-button-2">Next &gt;</button>
+        </div>
+      </div>
+    </div>
+    <!-- 2 ads bellow products in a grid -->
+    <div class="ads-two">
+      <div class="ads-two-1">
+        <img
+          src="./imgs/galaxy-s24-ultra-highlights-color-titanium-black-side-mo.jpg"
+          alt="laptop"
+        />
+      </div>
+      <div class="ads-two-1">
+        <img src="./imgs/c6a1bac3d103e376415d4175e5443973.webp" alt="laptop" />
+      </div>
+    </div>
+</div>
+<div id="newsletter" class="newsletter">
+  <svg
+    fill="#ffffff"
+    version="1.1"
+    id="Layer_1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xml:space="preserve"
+    width="90px"
+    height="90px"
+    stroke="#ffffff"
+    viewBox="0 0 166.781 166.781"
+  >
+    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+    <g
+      id="SVGRepo_tracerCarrier"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <g id="SVGRepo_iconCarrier">
+      <g>
+        <g>
+          <g>
+            <path
+              d="M163.451,70.046l-32.35-20.847c-0.253-0.161-0.532-0.222-0.804-0.312v-7.19c0-1.92-1.554-3.475-3.475-3.475H113.92 L86.97,21.378c-1.126-0.706-2.558-0.706-3.685,0l-26.95,16.844H39.958c-1.92,0-3.475,1.554-3.475,3.475v7.188 c-0.272,0.09-0.552,0.152-0.804,0.314L3.329,70.046c-0.991,0.641-1.592,1.741-1.592,2.921v90.339c0,1.92,1.554,3.475,3.475,3.475 h156.356c1.92,0,3.475-1.554,3.475-3.475V72.968C165.043,71.787,164.442,70.688,163.451,70.046z M85.128,28.423l15.681,9.799 H69.447L85.128,28.423z M43.433,45.171h79.915v78.178c0,0.01,0.006,0.018,0.006,0.029l-11.754,7.137l-28.284-15.427 c-1.055-0.57-2.338-0.567-3.386,0.034l-25.81,14.749l-10.692-6.492c0-0.01,0.006-0.018,0.006-0.028L43.433,45.171z M8.687,74.861 l27.796-17.91v62.212L8.687,102.285V74.861z M8.687,110.412l38.537,23.397L8.687,155.831V110.412z M15.689,159.833l66.005-37.715 l69.145,37.715H15.689z M158.094,155.874L118.65,134.36l39.444-23.949V155.874z M158.094,102.285l-27.797,16.877V56.951 l27.797,17.911V102.285z"
+            />
+            <path
+              d="M57.331,79.917h41.695c1.92,0,3.475-1.554,3.475-3.475V55.595c0-1.92-1.554-3.475-3.475-3.475H57.331 c-1.92,0-3.475,1.554-3.475,3.475v20.847C53.856,78.363,55.411,79.917,57.331,79.917z M60.805,59.069h34.746v13.898H60.805 V59.069z"
+            />
+            <rect x="53.856" y="86.866" width="55.593" height="6.949" />
+            <rect x="53.856" y="100.765" width="55.593" height="6.949" />
+            <path
+              d="M147.67,41.697c0.889,0,1.778-0.339,2.457-1.018l12.283-12.283c1.357-1.357,1.357-3.556,0-4.913 c-1.357-1.358-3.556-1.357-4.913,0l-12.283,12.283c-1.357,1.357-1.357,3.556,0,4.913 C145.892,41.358,146.781,41.697,147.67,41.697z"
+            />
+            <path
+              d="M16.654,40.679c0.679,0.679,1.568,1.018,2.457,1.018c0.889,0,1.778-0.339,2.457-1.018c1.357-1.357,1.357-3.556,0-4.913 L9.284,23.483c-1.357-1.357-3.556-1.357-4.913,0c-1.357,1.357-1.357,3.556,0,4.913L16.654,40.679z"
+            />
+            <path
+              d="M118.584,24.076c0.421,0.17,0.859,0.247,1.289,0.247c1.378,0,2.684-0.825,3.227-2.185l6.949-17.373 c0.713-1.781-0.156-3.804-1.937-4.516c-1.764-0.709-3.804,0.149-4.516,1.937l-6.949,17.373 C115.934,21.341,116.802,23.364,118.584,24.076z"
+            />
+            <path
+              d="M47.155,22.139c0.543,1.361,1.849,2.185,3.227,2.185c0.431,0,0.869-0.078,1.289-0.248 c1.781-0.713,2.65-2.735,1.937-4.516L46.659,2.187c-0.713-1.788-2.748-2.647-4.516-1.937c-1.781,0.713-2.65,2.735-1.937,4.516 L47.155,22.139z"
+            />
+          </g>
+        </g>
+      </g>
+    </g>
+  </svg>
+  <h1>Stay up to Date</h1>
+  <p>
+    Sign up now to be the first to learn of new products, <br />
+    special offers, limited-editions, and more!
+  </p>
+  <div class="input-group">
+    <input type="text" placeholder="Enter your email address" />
+    <button type="submit">Subscribe</button>
+  </div>
+</div>
+<footer>
+  <div class="address" id="nav6">
+    <img
+      src="/footer/logo/qintronics-high-resolution-logo-transparent.png"
+      alt="Shop Logo"
+    />
+    <ul class="lists">
+      <li id="street-name">11th October St. 33A, 1000 Skopje, Macedonia</li>
+      <li>info@qintronics.com</li>
+      <li>+389 70 001 001</li>
+    </ul>
+  </div>
+  <div class="links">
+    <h3>Shopping & Categories</h3>
+    <ul class="lists">
+      <li><a href="/category-page/category-page.html">Categories</a></li>
+      <li><a href="/favourites-page/favourites-page.html">Favorites</a></li>
+      <li><a href="/cart-page/index.html">Cart</a></li>
+    </ul>
+  </div>
+  <div class="links">
+    <h3>Useful links</h3>
+    <ul class="lists">
+      <li><a href="/home-page/home.html">Homepage</a></li>
+      <li><a href="/contact-page/contact.html">About us</a></li>
+      <li><a href="/contact-page/contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+  <div class="links">
+    <h3>Help & Information</h3>
+    <ul class="lists">
+      <li><a href="">Help</a></li>
+      <li><a href="">Shipping</a></li>
+      <li><a href="">Tracking ID</a></li>
+    </ul>
+  </div>
+  <div class="payments">
+    <ul class="lists">
+      <li><img src="/footer/Assets/mastercard-footer.svg" alt="" /></li>
+      <li><img src="/footer/Assets/amex-footer.svg" alt="" /></li>
+      <li><img src="/footer/Assets/paypal-footer.svg" alt="" /></li>
+      <li><img src="/footer/Assets/visa-footer.svg" alt="" /></li>
+      <li><img src="/footer/Assets/diners-footer.svg" alt="" /></li>
+    </ul>
+  </div>
+  <div class="copyrights">
+    © <span id="year"></span> Qintronics, Qinshift Academy G1, G3. All
+    rights reserved.
+  </div>
+</footer>
+
+    <script src="./index.js"></script>
+    <script src="./slider.js"></script>
+    <script src="./cards.js"></script>
+    <script src="./sliderdiv.js"></script>
+    <script src="./cardsSecond.js"></script>
+    <script src="/navbar/navbar.js"></script>
+    <script src="/footer/footer.js"></script>
+    <script src="/sidebar/sidebar.js"></script>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+:root {
+    --web-blue-color: #06255B;
+    --web-green-color: #1BD8C4;
+    --focus-ring-width: 0;
+}
+
+#empty-container {
+    margin-top: 4rem;
+    height: 2rem;
+}
+
+#category-bar {
+    height: 2.5rem;
+    border-top: 0.1rem solid var(--web-blue-color);
+    border-bottom: 0.1rem solid var(--web-blue-color);
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+#breadcrumb-container > a {
+    color: var(--web-blue-color);
+    font-size: 0.8rem;
+    line-height: 2.5rem;
+}
+
+#sale {
+    color: var(--web-green-color) !important;
+}
+
+.selected-category {
+    color: var(--web-green-color) !important;
+    pointer-events: none;
+}
+
+#show-menu {
+    min-width: 5rem;
+}
+
+#show-btn, #sort-btn {
+    color: var(--web-blue-color);
+    background-color: white;
+    border: none;
+}
+
+.down-arrow {
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-bottom: 0.15rem;
+    margin-left: 0.3rem;
+    border-top: 0.15rem solid var(--web-blue-color);
+    border-right: 0.15rem solid var(--web-blue-color);
+    transform: rotate(135deg);
+}
+
+.dropdown-menu {
+    border-color: var(--web-blue-color);
+    box-shadow: 0 0.1rem 0.2rem 0.05rem rgba(6, 37, 91, 0.5);
+    transition: 0.3s ease-out;
+}
+
+.dropdown-menu > li {
+    width: 100%;
+}
+
+.dropdown-menu > li > button {
+    color: var(--web-blue-color);
+    text-align: center; 
+}
+
+.dropdown-item:hover {
+    color: white;
+    background-color: var(--web-blue-color) !important;
+}
+
+.pag-items {
+    height: 2rem;
+    width: 3rem;
+    text-align: center;
+    cursor: pointer;
+ }
+
+#page-num {
+    color: var(--web-blue-color);
+    font-weight: 600;
+    pointer-events: none;
+}
+
+#left-arrow, #right-arrow {
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.7rem;
+}
+
+#left-arrow {
+    border-top: 0.15rem solid #cbcdcd;
+    border-right: 0.15rem solid #cbcdcd;
+    transform: rotate(-135deg);
+}
+
+#right-arrow {
+    border-top: 0.15rem solid var(--web-blue-color);
+    border-right: 0.15rem solid var(--web-blue-color);
+    transform: rotate(45deg);
+}
+
+#previous-btn {
+    pointer-events: none;
+}
+
+#previous-btn:active, #next-btn:active {
+    transform: scale(0.85);
+}
+
+@media (max-width: 600px) {
+	#empty-container {
+		margin-top: 7rem;
+	}
+}
+
+
+
+
+
+
+
+

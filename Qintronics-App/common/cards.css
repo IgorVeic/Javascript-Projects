@@ -1,0 +1,109 @@
+:root {
+  --web-blue-color: #06255b;
+  --web-green-color: #1bd8c4;
+  --focus-ring-width: 0;
+}
+
+.btn:focus {
+  box-shadow: none !important;
+}
+
+.gen-card-container:hover {
+  border: 0.1rem solid var(--web-blue-color) !important;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.gen-card-container:not(:hover) {
+  transition: 0.5s ease-out;
+}
+
+.gen-img-size {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: 1rem;
+}
+
+hr {
+  color: var(--web-green-color);
+  opacity: 1;
+}
+
+.fav-icons {
+  width: 2rem;
+  height: 2rem;
+}
+
+.fav-icons:hover {
+  cursor: pointer;
+}
+
+.fav-icons:active {
+  transform: scale(0.85);
+}
+
+.fav-icon-fill {
+  fill: var(--web-blue-color);
+}
+
+.gen-card-body {
+  color: var(--web-blue-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.gen-card-title {
+  color: var(--web-blue-color);
+  cursor: pointer;
+}
+
+.discount-banner {
+  width: 12rem;
+  height: 2rem;
+  position: absolute;
+  top: 2rem;
+  left: -2rem;
+  z-index: 1;
+  background-color: var(--web-green-color);
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  transform: rotate(-40deg);
+}
+
+.old-price {
+  text-decoration: line-through;
+}
+
+.discount-price {
+  display: none;
+  color: var(--web-green-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-left: 0.8rem;
+}
+
+.cart-btns {
+  width: 7rem;
+  color: white;
+  background-color: var(--web-blue-color);
+  border-color: var(--web-blue-color) !important;
+  box-shadow: 0 0.1rem 0.2rem 0.05rem rgba(6, 37, 91, 0.5);
+}
+
+.cart-btns:hover {
+  color: var(--web-blue-color);
+  background-color: white !important;
+}
+
+.cart-btns:active {
+  transform: scale(0.95);
+}
